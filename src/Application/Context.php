@@ -93,7 +93,7 @@ class Context
         static::setTablePrefix($connection->getTablePrefix() . $prefix);
 
         // set cache prefix
-        $connection->getCacheManager()->setPrefix($prefix);
+        // $connection->getCacheManager()->setPrefix($prefix);
     }
 
     /**
